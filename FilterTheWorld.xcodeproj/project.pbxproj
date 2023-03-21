@@ -78,7 +78,6 @@
 		18D775BF22AD944300AE281E /* FilterTheWorld */ = {
 			isa = PBXGroup;
 			children = (
-				ABA12FA5277DC5A400506C9F /* FilterTheWorld.entitlements */,
 				9F69EE4926942A2900746CD7 /* Camera */,
 				9F69EE612698A1B700746CD7 /* Extensions */,
 				9F69EE582696F17100746CD7 /* ViewModels */,
@@ -86,6 +85,7 @@
 				1839F4AF25190F2A00BB00F1 /* AppMain.swift */,
 				18D775C622AD944400AE281E /* Assets.xcassets */,
 				18D775DA22AD963800AE281E /* LaunchScreen.storyboard */,
+				ABA12FA5277DC5A400506C9F /* FilterTheWorld.entitlements */,
 				18D775CE22AD944400AE281E /* Info.plist */,
 				18D775C822AD944400AE281E /* Preview Content */,
 			);
@@ -392,7 +392,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.FilterTheWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -414,7 +416,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.FilterTheWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
