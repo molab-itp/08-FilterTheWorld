@@ -381,16 +381,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FilterTheWorld/FilterTheWorld.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "FilterTheWorld/Preview\\ Content";
-				DEVELOPMENT_TEAM = 3RCW2SSL8G;
+				DEVELOPMENT_TEAM = YDL9XYK959;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FilterTheWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.FilterTheWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katy.FilterTheWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = YES;
@@ -405,16 +406,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FilterTheWorld/FilterTheWorld.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "FilterTheWorld/Preview\\ Content";
-				DEVELOPMENT_TEAM = 3RCW2SSL8G;
+				DEVELOPMENT_TEAM = YDL9XYK959;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FilterTheWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.FilterTheWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katy.FilterTheWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = YES;
