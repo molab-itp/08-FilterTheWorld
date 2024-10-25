@@ -12,3 +12,9 @@ Source: [Building a Camera App With SwiftUI and Combine](https://www.kodeco.com/
   - [Receiving and Handling Events with Combine](https://developer.apple.com/documentation/combine/receiving-and-handling-events-with-combine)
   
 - TRY: Added Other filter option
+
+- Documentation research:
+-- https://developer.apple.com/documentation/combine/receiving-and-handling-events-with-combine
+-- https://developer.apple.com/documentation/combine/using-combine-for-your-app-s-asynchronous-code
+-- https://developer.apple.com/documentation/Swift/AsyncStream
+
