@@ -32,6 +32,7 @@
 
 import SwiftUI
 
+//       FrameView(image: model.frame)
 struct FrameView: View {
   var image: CGImage?
 
